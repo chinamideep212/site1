@@ -1,0 +1,138 @@
+@charset"UTF-8";
+html,body{
+    box-sizing: border-box;
+    line-height: 1.7;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/*header*/
+header{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+}
+header h1{
+    margin: 20px 0 0 20px;
+}
+header nav{
+    margin: 0 0 0 auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    background-color:#f2f2f2;
+    border-radius: 50px;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+/*header終わり*/
+
+.container{
+    position: relative;
+    width: 100%;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+#section1,#section2{
+    box-sizing: border-box;
+    margin: 50px;
+}
+#section1 p{
+    text-align: left;
+}
+#sectionwrap{
+    width: 60%;
+    margin: 0 auto;
+    height: 1000px;
+}
+/*footer*/
+footer{
+    box-sizing: border-box;
+    background: #333;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+}
+/*footerおわり*/
+
+/*table*/
+table{
+    text-align: left;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+}
+table,td,th{
+    border-bottom: 1px solid #938777;
+}
+tbody{
+    margin: auto;
+    text-align: left;
+}
+.th1{
+    color:#e89735;
+}
+table th{
+    color: #938777;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    width: 50%;
+}
+/*tableおわり*/
+
+/*form*/
+#form{
+    width: 80%;
+    margin: 0 auto;
+}
+input[type="email"]{
+    width: 30em;
+    background-color: #f6f5f5;
+}
+textarea{
+    width: 30em;
+    background-color: #f6f5f5;
+    padding: 20px;
+    height: 300px;
+}
+input[type="submit"]{
+    color:#fff;
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: right;
+    margin: 0 0 0 300px;
+}
+/*formおわり*/
